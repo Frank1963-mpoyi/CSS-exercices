@@ -18,7 +18,24 @@ body{
 
 }
 
+a{
+    text-decoration: none; 
+    color: green; /* change the color of the link */
+}
 
+a:hover{
+    color:red; /* when you scrol the color change to red */
+}
+
+a:active{
+    color:blue; /* when you click the color will change to blue*/
+}
+
+/*
+a:visited{
+    color:black; // change the color of the link 
+}
+*/
 .container{
     width: 80%;
     margin:auto;
@@ -50,3 +67,39 @@ body{
 
 }
 
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    Letter-spacing: 0.2em;
+    word-spacing: 1em;
+    
+}
+
+.box-2{
+    border: 3px dotted red;
+    padding:20px; /* draw the border the space betwen text and border all 4 sides*/
+    margin :20px 0; /* the space betwen border we draw and sheet all sides*/
+
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding:10px;
+    border-radius:15px; /* give round the corner*/
+}
+
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+
+}
+
+.categories ul{
+    padding:0;
+    list-style: square;
+    list-style: none; /* take out the dot */
+}
