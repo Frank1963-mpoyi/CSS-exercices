@@ -18,6 +18,16 @@ body{
 
 }
 
+
+
+.button{
+    background-color:yellow;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+
 a{
     text-decoration: none; 
     color: green; /* change the color of the link */
@@ -109,3 +119,29 @@ a:visited{
     border-bottom: dotted 1px;
     list-style-image: url('../images/check.png');
 }
+
+.my-form{
+    padding:20px; /* form move up*/
+}
+
+.my-form .form-group{
+    padding-bottom:15px; /* separate form group */
+}
+
+.my-form label{
+    display: block; /* put the label name up*/
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:50% /* size of input text 50% long*/
+}
+
+.button{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+NB: to continue at 50:48
