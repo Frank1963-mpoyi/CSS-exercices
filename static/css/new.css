@@ -1,0 +1,52 @@
+/* *(start) will target every thing in the document 
+*{
+    margin:0;
+    padding:0;
+}
+*/
+body{
+    background-color: #f4f4f4;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    /*font:normal 16px Arial, Heldvetica, sans-serif;  //same as above */
+
+    line-height: 1.6em; /* space between the line*/
+    margin: 0; /* its space from top execept hello world because heading has a margin by default*/
+
+}
+
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+/* if its a class we use dot(.) */
+
+.box-1{
+    background-color:green;
+    color:#fff;
+    border-right:5px red solid; /* like putting square*/
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid ;
+/*  border: 5px red solid; this is a short cut */
+    border-width: 3px; /* for the all sides*/
+    border-bottom-width: 10px; /* this is to target */
+    border-top-style:dotted;
+
+    padding-top:20px; /* is the space betwen line of the border on top and text */
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+/*  padding:20px; //same as above */
+
+    margin-top:20px; /* margin is a space between text and sheet */
+    margin: 20px 0; /* o; is the right and left 20px is for top and bottom */
+
+}
+
